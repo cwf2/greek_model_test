@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Spot-check review</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-group">
+      <button id="prevBtn" title="Previous (←)">&larr;</button>
+      <span id="posLabel">–</span>
+      <button id="nextBtn" title="Next (→)">&rarr;</button>
+    </div>
+    <div class="nav-group">
+      <label>Category
+        <select id="categoryFilter"><option value="">All</option></select>
+      </label>
+      <label>Judgement
+        <select id="judgementFilter"><option value="">All</option></select>
+      </label>
+      <label class="checkbox-label">
+        <input type="checkbox" id="reviewOnly"> REVIEW only
+      </label>
+    </div>
+    <div class="nav-group">
+      <input type="number" id="jumpBox" min="1" placeholder="row #">
+      <button id="jumpBtn">Go</button>
+    </div>
+    <div id="saveStatus"></div>
+  </header>
+
+  <main id="app">
+    <p>Loading…</p>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>

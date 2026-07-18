@@ -1,0 +1,190 @@
+:root {
+  --border: #d8d8d8;
+  --bg: #fafafa;
+  --accent: #2a5db0;
+  --ok: #1a7f37;
+  --error: #c0392b;
+  font-family: -apple-system, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: #1a1a1a;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 16px;
+  background: white;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+.nav-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-group label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: #555;
+}
+
+.checkbox-label {
+  flex-direction: row-reverse;
+}
+
+button {
+  border: 1px solid var(--border);
+  background: white;
+  border-radius: 6px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+button:hover { background: #f0f0f0; }
+
+select, input[type="text"], input[type="number"], textarea {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-family: inherit;
+}
+
+#jumpBox { width: 70px; }
+
+#posLabel {
+  font-variant-numeric: tabular-nums;
+  color: #555;
+  font-size: 13px;
+}
+
+#saveStatus {
+  margin-left: auto;
+  font-size: 13px;
+  color: #888;
+  min-width: 80px;
+}
+#saveStatus.ok { color: var(--ok); }
+#saveStatus.error { color: var(--error); font-weight: 600; }
+
+main {
+  padding: 24px 16px 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px 28px;
+  width: 100%;
+  max-width: 760px;
+}
+
+.meta {
+  display: flex;
+  gap: 10px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.category {
+  background: #eef2fb;
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.work { font-weight: 600; }
+.urn { color: #999; font-size: 12px; }
+
+.token {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 30px;
+  margin: 6px 0 4px;
+}
+
+.context {
+  font-family: "Times New Roman", Georgia, serif;
+  font-size: 19px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.context mark {
+  background: #fff1a8;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.morph-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.morph-table th, .morph-table td {
+  border: 1px solid var(--border);
+  padding: 5px 10px;
+  text-align: left;
+}
+
+.morph-table thead th {
+  background: #f4f4f4;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.morph-table tbody th {
+  background: #fbfbfb;
+  font-weight: 500;
+  color: #555;
+  width: 90px;
+}
+
+.edit-block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.edit-block label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #444;
+}
+
+.edit-block input, .edit-block textarea {
+  font-weight: normal;
+  font-family: inherit;
+}
+
+.edit-block textarea {
+  resize: vertical;
+  line-height: 1.4;
+}

@@ -1,3 +1,8 @@
+# Project-specific: generated data, fully regenerable from the scripts + source models
+/data/*
+# ...except the human-adjudicated spot-check judgments, which aren't regenerable
+!/data/spotchecks/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
