@@ -9,6 +9,7 @@ script instead after adding/editing a report's frontmatter.
 |---|---|---|---|
 | 2026-07-18 | [δέ POS tagging — gold-treebank divergence and a training-schema attribution](de_pos_tagging.md) | pos-tagging, particles, ud-treebanks, latincy-dev | [experiments/de_pos_tagging.py](../experiments/de_pos_tagging.py) |
 | 2026-07-18 | [1st/2nd-person pronouns are reliable by lemma, not by morph tag](pronoun_person_gender.md) | pos-tagging, morphology, pronouns, ud-treebanks, latincy-dev | [experiments/pronoun_person_gender.py](../experiments/pronoun_person_gender.py) |
+| 2026-07-18 | [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) | treebank, dependency-parsing, quintus, posthomerica, model-comparison, latincy-dev | [treebank_base.py, experiments/treebank_agreement.py](../treebank_base.py, experiments/treebank_agreement.py) |
 | 2026-07-17 | [grc_dep_web_lg is internally inconsistent on possessive-adjective POS](possessive_adjective_pos_instability.md) | pos-tagging, model-instability | [experiments/possessive_adjective_pos_instability.py](../experiments/possessive_adjective_pos_instability.py) |
 | 2026-07-17 | [Spot-check adjudication summary](spotcheck_adjudication.md) | pos-tagging, lemmatization, human-adjudication | [experiments/spotcheck_adjudication.py](../experiments/spotcheck_adjudication.py) |
 | 2026-07-16 | [Crasis handling across the three models](crasis_handling.md) | tokenizer-bug, crasis | [experiments/crasis_handling.py](../experiments/crasis_handling.py) |
@@ -22,6 +23,10 @@ script instead after adding/editing a report's frontmatter.
 
 - [Crasis handling across the three models](crasis_handling.md) — lg/trf never split a genuine crasis form; odyCy splits at least 4 forms at the internal breathing mark, but not universally. A previously-reported "trf under-splitting bug" turns out to be a source-text issue, not a tokenizer bug.
 
+### `dependency-parsing`
+
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
+
 ### `elision`
 
 - [Elision-apostrophe lemmatization gap](elision_apostrophe_bug.md) — U+02BC vs U+0027 codepoint mismatch breaks lemma resolution on 6.33% of the corpus across all three models (not just LatinCy), degrading POS/morph too.
@@ -34,6 +39,7 @@ script instead after adding/editing a report's frontmatter.
 
 - [δέ POS tagging — gold-treebank divergence and a training-schema attribution](de_pos_tagging.md) — The three official grc UD treebanks genuinely disagree on how to tag δέ; PART turns out to be a document-provenance artifact confined to Perseus's Homer-heavy train split and invisible to any of the three treebanks' benchmarks; and the specific ADV-vs-CCONJ direction each of this project's models drifts toward on stylistic outliers (Nonnus, Tryphiodorus) tracks which treebanks fed its training.
 - [1st/2nd-person pronouns are reliable by lemma, not by morph tag](pronoun_person_gender.md) — Personal pronouns can be found reliably by matching lemma + POS (elision aside), but the `person` feature is almost never populated and `gender`, where populated, isn't tracking anything real — traced through both this project's models and the three treebanks' own gold conventions, down to an individual-annotator effect in the original AGDT source XML.
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
 - [Elision-apostrophe lemmatization gap](elision_apostrophe_bug.md) — U+02BC vs U+0027 codepoint mismatch breaks lemma resolution on 6.33% of the corpus across all three models (not just LatinCy), degrading POS/morph too.
 
 ### `lemmatization`
@@ -44,6 +50,7 @@ script instead after adding/editing a report's frontmatter.
 
 ### `model-comparison`
 
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
 - [Inter-model comparison on the Greek epic corpus](model_comparison_report.md) — Corpus-wide POS/lemma agreement and disagreement patterns across grc_odycy_joint_trf, grc_dep_web_lg, and grc_dep_web_trf; no gold treebank, so this maps disagreement rather than accuracy.
 
 ### `model-instability`
@@ -71,9 +78,17 @@ script instead after adding/editing a report's frontmatter.
 - [Inter-model comparison on the Greek epic corpus](model_comparison_report.md) — Corpus-wide POS/lemma agreement and disagreement patterns across grc_odycy_joint_trf, grc_dep_web_lg, and grc_dep_web_trf; no gold treebank, so this maps disagreement rather than accuracy.
 - [Pronoun+τε univerbation has no correct single-token POS tag](pronoun_te_univerbation.md) — The ὅστε "generalizing relative" family (relative pronoun + enclitic τε fused into one word) can't be represented by a single POS tag, and all three models split on how to be wrong about it.
 
+### `posthomerica`
+
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
+
 ### `pronouns`
 
 - [1st/2nd-person pronouns are reliable by lemma, not by morph tag](pronoun_person_gender.md) — Personal pronouns can be found reliably by matching lemma + POS (elision aside), but the `person` feature is almost never populated and `gender`, where populated, isn't tracking anything real — traced through both this project's models and the three treebanks' own gold conventions, down to an individual-annotator effect in the original AGDT source XML.
+
+### `quintus`
+
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
 
 ### `sack-of-troy`
 
@@ -83,6 +98,10 @@ script instead after adding/editing a report's frontmatter.
 
 - [Crasis handling across the three models](crasis_handling.md) — lg/trf never split a genuine crasis form; odyCy splits at least 4 forms at the internal breathing mark, but not universally. A previously-reported "trf under-splitting bug" turns out to be a source-text issue, not a tokenizer bug.
 - [Elision-apostrophe lemmatization gap](elision_apostrophe_bug.md) — U+02BC vs U+0027 codepoint mismatch breaks lemma resolution on 6.33% of the corpus across all three models (not just LatinCy), degrading POS/morph too.
+
+### `treebank`
+
+- [A Claude-assisted first-pass treebank prototype for Quintus (Posthomerica 1.1-30)](treebank_agreement.md) — The three existing parsers already produce full dependency trees that the pipeline discards; capturing them and using their disagreements to scaffold a hand-adjudicated silver CoNLL-U file gets less than half the tokens right by unanimous 3-way agreement, but the disagreements are cheap to spot and the resulting silver file is a real, usable first pass.
 
 ### `ud-treebanks`
 

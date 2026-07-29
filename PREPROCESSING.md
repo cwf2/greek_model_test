@@ -73,3 +73,21 @@ phenomenon — single visually/phonetically adjacent character substitutions —
 and a spell-check-style pass against a Greek epic lexicon might catch more of
 these than the breathing-mark heuristic used above, which only catches the
 subset that happens to produce an internal breathing-marked vowel.
+
+- **`ὄβριμου` for `ὄβριμον`** (Posthomerica 1.8, ν/υ confusion). Found while
+  hand-treebanking this passage (see
+  [reports/treebank_agreement.md](reports/treebank_agreement.md)): the word
+  is grammatically required to agree with the accusative `ἄνδρα` it
+  modifies, but `-ου` is unambiguously a genitive ending — same error class
+  as the ν/υ confusion already noted above (`νἱὸς`/`υἱός`), not yet
+  confirmed against a critical edition.
+
+- **`ἐλάθοιο` for `ἐλάφοιο`** (Posthomerica 1.25, θ/φ confusion — a letter
+  pair not yet seen in the other cases here). `ἐλάθοιο` doesn't lemmatize to
+  any attested word and stalled the treebank adjudication (see
+  [reports/treebank_agreement.md](reports/treebank_agreement.md), sentence
+  7) until cross-checking Way's 1913 translation ("'twas at a stag she
+  hurled") pointed at `ἔλαφος` "stag/deer" — genitive `ἐλάφοιο` is exactly
+  the epic form `τιτυσκομένη` ("aiming at") would govern, and fits the
+  context perfectly. Not yet confirmed against a critical edition, but
+  high-confidence.

@@ -2,6 +2,9 @@
 /data/*
 # ...except the human-adjudicated spot-check judgments, which aren't regenerable
 !/data/spotchecks/
+# ...and the hand-adjudicated silver treebanks (data/treebanks_base/ stays ignored --
+# that part is the raw regenerable model output, per treebank_base.py)
+!/data/treebanks/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

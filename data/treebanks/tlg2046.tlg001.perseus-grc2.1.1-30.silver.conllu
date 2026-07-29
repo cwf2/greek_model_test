@@ -1,0 +1,253 @@
+# sent_id = tlg2046.tlg001.perseus-grc2.1.1
+# text = Εὖθʼ ὑπὸ Πηλείωνι δάμη θεοείκελος Ἕκτωρ καί ἑ πυρὴ κατέδαψε καὶ ὀστέα γαῖα κεκεύθει , δὴ τότε Τρῶες ἔμιμνον ἀνὰ Πριάμοιο πόληα δειδιότες μένος ἠῢ θρασύφρονος Αἰακίδαο ·
+# claude_agreement = majority
+1	Εὖθʼ	ὅτε	SCONJ	_	_	4	mark	_	_
+2	ὑπὸ	ὑπό	ADP	_	_	3	case	_	_
+3	Πηλείωνι	πηλείων	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+4	δάμη	δαμάζω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	19	advcl	_	_
+5	θεοείκελος	θεοείκελος	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
+6	Ἕκτωρ	Ἕκτωρ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+7	καί	καί	CCONJ	_	_	10	cc	_	_
+8	ἑ	ἕ	PRON	_	Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+9	πυρὴ	πυρή	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	κατέδαψε	καταδάπτω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	καὶ	καί	CCONJ	_	_	14	cc	_	_
+12	ὀστέα	ὀστέον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
+13	γαῖα	γαῖα	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+14	κεκεύθει	κεύθω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	,	,	PUNCT	_	_	4	punct	_	_
+16	δὴ	δή	PART	_	_	19	advmod	_	_
+17	τότε	τότε	ADV	_	_	19	advmod	_	_
+18	Τρῶες	Τρώς	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+19	ἔμιμνον	μίμνω	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	ἀνὰ	ἀνά	ADP	_	_	22	case	_	_
+21	Πριάμοιο	Πριάμοιο	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+22	πόληα	πόλις	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+23	δειδιότες	δείδω	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	19	advcl	_	_
+24	μένος	μένος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	ἠῢ	ἠῢ	ADJ	_	_	24	amod	_	_
+26	θρασύφρονος	θρασύφρων	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	27	amod	_	_
+27	Αἰακίδαο	Αἰακίδης	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+28	·	·	PUNCT	_	_	19	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.2
+# text = ἠΰτʼ ἐνὶ ξυλοχοισι βόες βλοσυροῖο λέοντος ἐλθέμεν οὐκ ἐθέλουσιν ἐναντίαι , ἀλλὰ φέβουται ἰληδὸν πτώσσουσαι ἀνὰ ῥωπήια πυκνά ·
+# claude_agreement = majority
+1	ἠΰτʼ	ἠΰτε	SCONJ	_	_	9	mark	_	_
+2	ἐνὶ	ἐν	ADP	_	_	3	case	_	_
+3	ξυλοχοισι	ξύλοχος	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+4	βόες	βοῦς	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+5	βλοσυροῖο	βλοσυρός	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	λέοντος	λέων	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+7	ἐλθέμεν	ἔρχομαι	VERB	_	Tense=Past|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+8	οὐκ	οὐ	ADV	_	_	9	advmod	_	_
+9	ἐθέλουσιν	ἐθέλω	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	ἐναντίαι	ἐναντίος	ADJ	_	Case=Nom|Gender=Fem|Number=Plur	7	xcomp	_	_
+11	,	,	PUNCT	_	_	9	punct	_	_
+12	ἀλλὰ	ἀλλά	CCONJ	_	_	13	cc	_	_
+13	φέβουται	φέβομαι	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	conj	_	_
+14	ἰληδὸν	ἰληδόν	ADV	_	_	15	advmod	_	_
+15	πτώσσουσαι	πτώσσω	VERB	_	Case=Nom|Gender=Fem|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	advcl	_	_
+16	ἀνὰ	ἀνά	ADP	_	_	17	case	_	_
+17	ῥωπήια	ῥωπήιον	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	15	obl	_	_
+18	πυκνά	πυκνός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	17	amod	_	_
+19	·	·	PUNCT	_	_	9	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.3
+# text = ὥς οἱ ἀνὰ πτολίεθρον ὑπέτρεσαν ὄβριμου ἄνδρα μνησάμενοι προτέρων , ὁπόσων ἀπὸ θυμὸν ἴαψεν θύων Ἰδαίοιο περὶ προχοῇσι Σκαμάνδρου , ἠδʼ ὅσσους φεύγοντας ὑπὸ μέγα τεῖχος ὄλεσσεν , Ἕκτορά θʼ ὡς ἐδάμασσε καὶ ἀμφείρυσσε πόληι , ἄλλους θʼ ὡς ἐδάϊξε διʼ ἀκαμάτοιο θαλάσσης ὁππότε δὴ τὰ πρῶτα φέρε Τρώεσσιν ὄλεθρον .
+# claude_agreement = split
+# claude_note = tok 6 (ὄβριμου): FORM as printed (ὄβριμου) looks like a ν/υ transcription slip for ὄβριμον -- same error class as the ν/υ and Α/Λ confusions already logged in PREPROCESSING.md
+# claude_note = tok 12 (ἀπὸ): tmesis preverb of ἴαψεν, not a governing adposition
+1	ὥς	ὡς	ADV	_	_	5	advmod	_	_
+2	οἱ	ἕ	PRON	_	Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	_
+3	ἀνὰ	ἀνά	ADP	_	_	4	case	_	_
+4	πτολίεθρον	πτολίεθρον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+5	ὑπέτρεσαν	ὑποτρέω	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ὄβριμου	ὄβριμος	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	7	amod	_	_
+7	ἄνδρα	ἀνήρ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	μνησάμενοι	μιμνήσκω	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	5	advcl	_	_
+9	προτέρων	πρότερος	ADJ	_	Case=Gen|Gender=Masc|Number=Plur	8	obj	_	_
+10	,	,	PUNCT	_	_	5	punct	_	_
+11	ὁπόσων	ὁπόσος	PRON	_	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+12	ἀπὸ	ἀπό	ADV	_	_	14	advmod	_	_
+13	θυμὸν	θυμός	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+14	ἴαψεν	ἰάπτω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	_
+15	θύων	θύω	VERB	_	Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	advcl	_	_
+16	Ἰδαίοιο	Ἰδαίοιο	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	19	amod	_	_
+17	περὶ	περί	ADP	_	_	18	case	_	_
+18	προχοῇσι	προχοή	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	15	obl	_	_
+19	Σκαμάνδρου	Σκάμανδρος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+20	,	,	PUNCT	_	_	14	punct	_	_
+21	ἠδʼ	ἠδέ	CCONJ	_	_	27	cc	_	_
+22	ὅσσους	ὅσσους	PRON	_	Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+23	φεύγοντας	φεύγω	VERB	_	Case=Acc|Gender=Masc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	22	acl	_	_
+24	ὑπὸ	ὑπό	ADP	_	_	26	case	_	_
+25	μέγα	μέγας	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	26	amod	_	_
+26	τεῖχος	τεῖχος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+27	ὄλεσσεν	ὄλλυμι	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	Ἕκτορά	Ἕκτωρ	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+30	θʼ	τε	CCONJ	_	_	32	cc	_	_
+31	ὡς	ὡς	ADV	_	_	32	mark	_	_
+32	ἐδάμασσε	δαμάζω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	_
+33	καὶ	καί	CCONJ	_	_	34	cc	_	_
+34	ἀμφείρυσσε	ἀμφίἐρύω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
+35	πόληι	πόλις	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	34	obl	_	_
+36	,	,	PUNCT	_	_	34	punct	_	_
+37	ἄλλους	ἄλλος	PRON	_	Case=Acc|Gender=Masc|Number=Plur	40	obj	_	_
+38	θʼ	τε	CCONJ	_	_	40	cc	_	_
+39	ὡς	ὡς	ADV	_	_	40	mark	_	_
+40	ἐδάϊξε	δαΐζω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
+41	διʼ	διά	ADP	_	_	43	case	_	_
+42	ἀκαμάτοιο	ἀκάματος	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	43	amod	_	_
+43	θαλάσσης	θάλασσα	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	40	obl	_	_
+44	ὁππότε	ὁπότε	ADV	_	_	48	mark	_	_
+45	δὴ	δή	PART	_	_	48	advmod	_	_
+46	τὰ	ὁ	DET	_	Case=Acc|Gender=Neut|Number=Plur	47	det	_	_
+47	πρῶτα	πρῶτος	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	48	obl	_	_
+48	φέρε	φέρω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	40	advcl	_	_
+49	Τρώεσσιν	Τρώς	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	48	iobj	_	_
+50	ὄλεθρον	ὄλεθρος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	48	obj	_	_
+51	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.4
+# text = τῶν οἵ γε μνησθέντες ἀνὰ πτολίεθρον ἔμιμνον .
+# claude_agreement = majority
+1	τῶν	ὁ	PRON	_	Case=Gen|Gender=Masc|Number=Plur	4	obj	_	_
+2	οἵ	ὁ	PRON	_	Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+3	γε	γε	PART	_	_	2	advmod	_	_
+4	μνησθέντες	μιμνήσκω	VERB	_	Case=Nom|Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	advcl	_	_
+5	ἀνὰ	ἀνά	ADP	_	_	6	case	_	_
+6	πτολίεθρον	πτολίεθρον	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+7	ἔμιμνον	μίμνω	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.5
+# text = ἀμφὶ δʼ ἄρα σφίσι πένθος ἀνιηρὸν πεπότητο ὡς ἤδη στονόεντι καταιθομένης πυρὶ Τροίης .
+# claude_agreement = majority
+1	ἀμφὶ	ἀμφί	ADP	_	_	4	case	_	_
+2	δʼ	δέ	PART	_	_	7	cc	_	_
+3	ἄρα	ἄρα	PART	_	_	7	advmod	_	_
+4	σφίσι	σφεῖς	PRON	_	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_
+5	πένθος	πένθος	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+6	ἀνιηρὸν	ἀνιαρός	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	5	amod	_	_
+7	πεπότητο	ποτάομαι	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pqp|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	ὡς	ὡς	ADV	_	_	11	mark	_	_
+9	ἤδη	ἤδη	ADV	_	_	11	advmod	_	_
+10	στονόεντι	στονόεις	ADJ	_	Case=Dat|Gender=Neut|Number=Sing	12	amod	_	_
+11	καταιθομένης	καταίθω	VERB	_	Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	7	advcl	_	_
+12	πυρὶ	πῦρ	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+13	Τροίης	Τροία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	11	nsubj	_	_
+14	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.6
+# text = καὶ τότε Θερμώδοντος ἀπʼ εὐρυπόροιο ῥεέθρων ἤλυθε Πενθεσίλεια θεῶν ἐπιειμένη εἶδος , ἄμφω καὶ στονόεντος ἐελδομένη πολέμοιο καὶ μέγʼ ἀλευαμένη στυγερὴν καὶ ἀεικέα φήμην , μή τις ἑὸν κατὰ δῆμον ἐλεγχείῃσι χαλέψῃ ἀμφὶ κασιγνήτης , ἧς εἵνεκα πένθος ἄεξεν , Ἱππολύτης ·
+# claude_agreement = split
+1	καὶ	καί	ADV	_	_	7	advmod	_	_
+2	τότε	τότε	ADV	_	_	7	advmod	_	_
+3	Θερμώδοντος	θερμώδων	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+4	ἀπʼ	ἀπό	ADP	_	_	6	case	_	_
+5	εὐρυπόροιο	εὐρυπόρος	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	6	amod	_	_
+6	ῥεέθρων	ῥεῖθρον	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+7	ἤλυθε	ἔρχομαι	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	Πενθεσίλεια	πενθεσιλεία	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	θεῶν	θεός	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+10	ἐπιειμένη	ἕννυμι	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	8	acl	_	_
+11	εἶδος	εἶδος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	_	_	7	punct	_	_
+13	ἄμφω	ἄμφω	ADJ	_	Case=Nom|Gender=Masc|Number=Dual	16	advmod	_	_
+14	καὶ	καί	ADV	_	_	16	cc	_	_
+15	στονόεντος	στονόεις	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	17	amod	_	_
+16	ἐελδομένη	ἔλδομαι	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	10	conj	_	_
+17	πολέμοιο	πόλεμος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	16	obj	_	_
+18	καὶ	καί	CCONJ	_	_	20	cc	_	_
+19	μέγʼ	μέγα	ADV	_	Case=Acc|Gender=Neut|Number=Sing	20	advmod	_	_
+20	ἀλευαμένη	ἀλεύομαι	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	16	conj	_	_
+21	στυγερὴν	στυγερός	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	24	amod	_	_
+22	καὶ	καί	CCONJ	_	_	23	cc	_	_
+23	ἀεικέα	ἀεικής	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	21	conj	_	_
+24	φήμην	φήμη	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+25	,	,	PUNCT	_	_	7	punct	_	_
+26	μή	μή	SCONJ	_	_	32	mark	_	_
+27	τις	τις	PRON	_	Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+28	ἑὸν	ἑός	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	30	amod	_	_
+29	κατὰ	κατά	ADP	_	_	30	case	_	_
+30	δῆμον	δῆμος	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	32	obl	_	_
+31	ἐλεγχείῃσι	ἐλεγχείη	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	32	obl	_	_
+32	χαλέψῃ	χαλέπτω	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	20	advcl	_	_
+33	ἀμφὶ	ἀμφί	ADP	_	_	34	case	_	_
+34	κασιγνήτης	κασιγνήτη	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	32	obl	_	_
+35	,	,	PUNCT	_	_	32	punct	_	_
+36	ἧς	ὅς	PRON	_	Case=Gen|Gender=Fem|Number=Sing	39	obl	_	_
+37	εἵνεκα	ἕνεκα	ADP	_	_	36	case	_	_
+38	πένθος	πένθος	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	39	nsubj	_	_
+39	ἄεξεν	ἀέξω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	34	acl	_	_
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	Ἱππολύτης	ἱππολύτη	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	34	nmod	_	_
+42	·	·	PUNCT	_	_	7	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.7
+# text = τὴν γάρ ῥα κατέκτανε δουρὶ κραταιῷ , οὐ μὲν δή τι ἑκοῦσα , τιτυσκομένη δʼ ἐλάθοιο ·
+# claude_agreement = majority
+# claude_note = REVIEW: Resolved against Way's 1913 translation (theoi.com): Penthesileia, not Achilles, is the subject of κατέκτανε/ἑκοῦσα/τιτυσκομένη -- she killed her own sister Hippolyta by accident while aiming at a stag. That also explains tok16 ἐλάθοιο, which doesn't lemmatize to anything -- almost certainly a θ/φ transcription error for ἐλάφοιο (gen. sg. of ἔλαφος 'stag/deer'), genitive object of τιτυσκομένη ('aiming at a stag'). FORM kept as printed; lemma corrected. Still worth a critical-edition check, but no longer a REVIEW-blocking crux.
+1	τὴν	ὁ	PRON	_	Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+2	γάρ	γάρ	PART	_	_	4	advmod	_	_
+3	ῥα	ἄρα	PART	_	_	4	advmod	_	_
+4	κατέκτανε	κατακτείνω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	δουρὶ	δόρυ	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+6	κραταιῷ	κραταιός	ADJ	_	Case=Dat|Gender=Neut|Number=Sing	5	amod	_	_
+7	,	,	PUNCT	_	_	4	punct	_	_
+8	οὐ	οὐ	ADV	_	_	12	advmod	_	_
+9	μὲν	μέν	PART	_	_	12	advmod	_	_
+10	δή	δή	PART	_	_	12	advmod	_	_
+11	τι	τις	PRON	_	Case=Acc|Gender=Neut|Number=Sing	12	advmod	_	_
+12	ἑκοῦσα	ἑκών	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	4	advcl	_	_
+13	,	,	PUNCT	_	_	4	punct	_	_
+14	τιτυσκομένη	τιτύσκομαι	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	12	conj	_	_
+15	δʼ	δέ	PART	_	_	14	cc	_	_
+16	ἐλάθοιο	ἔλαφος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	14	obj	_	_
+17	·	·	PUNCT	_	_	4	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.8
+# text = τοὔνεκʼ ἄρα Τροίης ἐρικυδέος ἵκετο γαῖαν .
+# claude_agreement = split
+1	τοὔνεκʼ	τοὔνεκα	ADV	_	_	5	advmod	_	_
+2	ἄρα	ἄρα	PART	_	_	5	advmod	_	_
+3	Τροίης	Τροία	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+4	ἐρικυδέος	ἐρικυδής	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	3	amod	_	_
+5	ἵκετο	ἱκνέομαι	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	γαῖαν	γαῖα	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = tlg2046.tlg001.perseus-grc2.1.9
+# text = πρὸς δʼ ἔτι οἱ τόδε θυμὸς ἀρήιος ὁρμαίνεσκεν , ὄφρα καθηραμένη περὶ λύματα λυγρὰ φόνοιο σμερδαλέας θυέεσσιν Ἐριννύας ἱλάσσηται , αἵ οἱ ἀδελφειῆς κεχολωμέναι αὐτίχʼ ἕποντο ἄφραστοι ·
+# claude_agreement = split
+1	πρὸς	πρός	ADP	_	_	8	advmod	_	_
+2	δʼ	δέ	PART	_	_	8	cc	_	_
+3	ἔτι	ἔτι	ADV	_	_	8	advmod	_	_
+4	οἱ	ἕ	PRON	_	Case=Dat|Gender=Fem|Number=Sing	6	nmod	_	_
+5	τόδε	ὅδε	PRON	_	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+6	θυμὸς	θυμός	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	ἀρήιος	Ἄρειος	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
+8	ὁρμαίνεσκεν	ὁρμαίνω	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	ὄφρα	ὄφρα	SCONJ	_	_	19	mark	_	_
+11	καθηραμένη	καθαίρω	VERB	_	Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	19	advcl	_	_
+12	περὶ	περί	ADP	_	_	13	case	_	_
+13	λύματα	λῦμα	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	11	obl	_	_
+14	λυγρὰ	λυγρός	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	13	amod	_	_
+15	φόνοιο	φόνος	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	σμερδαλέας	σμερδαλέος	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	18	amod	_	_
+17	θυέεσσιν	θύος	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	19	obl	_	_
+18	Ἐριννύας	Ἐριννύη	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+19	ἱλάσσηται	ἱλάομαι	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	αἵ	ὅς	PRON	_	Case=Nom|Gender=Fem|Number=Plur	26	nsubj	_	_
+22	οἱ	ἕ	PRON	_	Case=Dat|Gender=Fem|Number=Sing	26	obl	_	_
+23	ἀδελφειῆς	ἀδελφειά	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	24	obl	_	_
+24	κεχολωμέναι	χολόομαι	VERB	_	Case=Nom|Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	26	advcl	_	_
+25	αὐτίχʼ	αὐτίκα	ADV	_	_	26	advmod	_	_
+26	ἕποντο	ἕπομαι	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Mid	18	acl	_	_
+27	ἄφραστοι	ἄφραστος	ADJ	_	Case=Nom|Gender=Masc|Number=Plur	26	xcomp	_	_
+28	·	·	PUNCT	_	_	8	punct	_	_
+
